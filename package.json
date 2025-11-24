@@ -1,5 +1,6 @@
 {
   "name": "merkle-ai-platform",
+  "homepage": "https://danknauf.github.io/MerkleAgenticPlatform/"
   "version": "1.0.0",
   "type": "module",
   "description": "Merkle AI-Powered Collaborative Workspace Platform - Demo Application",
