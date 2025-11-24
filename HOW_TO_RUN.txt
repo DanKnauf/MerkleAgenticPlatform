@@ -1,0 +1,167 @@
+================================================================================
+                    MERKLE AI PLATFORM - HOW TO RUN
+================================================================================
+
+QUICKEST WAY TO LAUNCH:
+-----------------------
+
+1. Open Windows Explorer
+2. Navigate to this folder
+3. Double-click "start.bat"
+4. Wait for Chrome to open automatically
+5. Login with: pm@merkle.com / demo123
+
+That's it!
+
+================================================================================
+
+ALTERNATIVE METHODS:
+-------------------
+
+METHOD 1: PowerShell
+--------------------
+Right-click "start.ps1" → Run with PowerShell
+
+METHOD 2: VS Code
+-----------------
+1. Open this folder in VS Code
+2. Press F5
+3. Select "Launch Chrome - Merkle AI Platform"
+
+METHOD 3: Command Line
+----------------------
+Open terminal in this folder and run:
+    npm install
+    npm run dev
+
+METHOD 4: VS Code Terminal
+--------------------------
+1. Open VS Code
+2. Press Ctrl+` to open terminal
+3. Run: npm install
+4. Run: npm run dev
+
+================================================================================
+
+WHAT YOU NEED FIRST:
+-------------------
+
+✓ Node.js (version 18 or higher)
+
+To check if you have it:
+    node --version
+
+If not installed:
+    1. Go to: https://nodejs.org/
+    2. Download LTS version
+    3. Install it
+    4. Restart your computer
+    5. Try again
+
+================================================================================
+
+LOGIN CREDENTIALS:
+-----------------
+
+Email: pm@merkle.com
+Password: demo123
+
+OR
+
+Email: dev@merkle.com
+Password: demo123
+
+OR
+
+Email: ba@merkle.com
+Password: demo123
+
+(Or just click the Quick Login buttons!)
+
+================================================================================
+
+BROWSER:
+--------
+
+The application will automatically open in Chrome at:
+    http://localhost:5173
+
+If Chrome doesn't open automatically, manually open it and go to that URL.
+
+================================================================================
+
+TROUBLESHOOTING:
+---------------
+
+Problem: "node is not recognized"
+Solution: Install Node.js from https://nodejs.org/
+
+Problem: Port already in use
+Solution: Close any other development servers and try again
+
+Problem: Page looks broken
+Solution: Press Ctrl+Shift+R to hard refresh
+
+Problem: npm install fails
+Solution: Check your internet connection, try again
+
+================================================================================
+
+NEED MORE HELP?
+--------------
+
+See these detailed guides:
+- QUICKSTART.md - Quick reference
+- LAUNCH_INSTRUCTIONS.md - Step-by-step instructions
+- SETUP.md - Detailed setup guide
+- README.md - Full documentation
+
+================================================================================
+
+SUPPORT:
+--------
+
+For technical issues:
+1. Check the console (F12 in browser) for errors
+2. Check the terminal output for error messages
+3. Make sure Node.js v18+ is installed
+4. Make sure you ran "npm install" first
+
+================================================================================
+
+QUICK CHECKLIST:
+---------------
+
+Before launching:
+[ ] Node.js installed (v18+)
+[ ] In the correct folder
+[ ] Internet connection working
+
+To launch:
+[ ] Run start.bat (or other method)
+[ ] Wait for "ready in XXXms" message
+[ ] Chrome opens to login page
+[ ] Login with pm@merkle.com / demo123
+[ ] Dashboard appears with projects
+
+================================================================================
+
+PROJECT DETAILS:
+---------------
+
+Framework: React + TypeScript + Vite
+Port: 5173
+Hot Reload: Yes (changes auto-refresh)
+Browser: Chrome (recommended)
+
+Dev Commands:
+    npm run dev     - Start development server
+    npm run build   - Build for production
+    npm run preview - Preview production build
+
+To stop server: Press Ctrl+C in the terminal
+
+================================================================================
+
+Ready to launch? → Double-click "start.bat"
+================================================================================
